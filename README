@@ -1,0 +1,4 @@
+Simple stopwatch controlled from command line.
+The clock starts running as soon as the application runs.
+There are 3 flags after that: "/start", "/stop", "/pause"
+Those are pretty self explanatory.
