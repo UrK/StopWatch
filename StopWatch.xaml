@@ -1,0 +1,9 @@
+﻿<Window x:Class="StopWatch.StopWatchForm"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Stopwatch" Height="118" Width="300" Background="Black" Closing="ClosingHandler" Icon="/StopWatch;component/AppIcon.ico">
+    <Grid>
+        <Label Name="m_timeLabel" FontSize="48" Foreground="Crimson" HorizontalContentAlignment="Center">00:00:00</Label>
+        <Label Height="20" HorizontalAlignment="Right" Name="m_stateLabel" VerticalAlignment="Bottom" Width="68" FontSize="8" Foreground="Crimson" HorizontalContentAlignment="Right"></Label>
+    </Grid>
+</Window>
